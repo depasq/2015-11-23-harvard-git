@@ -28,5 +28,7 @@ Commit will then save that state of the file with a message
 
  To see differences between your last commit and current state:
  > git diff
-
+ If you're in a clean repository with no commits needed, you can see the diff
+ from the last commit using:
+ > git diff HEAD~1
  
