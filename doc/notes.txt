@@ -1,4 +1,23 @@
 GIT Training Session - 11/23/2015
 ---------------------------------
-- useful notes for organizing projects:
+Class website:
+http://chendaniely.github.io/2015-11-23-harvard/
+http://software-carpentry.org/lessons.html
+
+* useful notes for organizing projects:
 http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424
+
+I. Basics of GIT
+ - in directory you want to track:
+
+  >git init
+  initializes the directory as a git repository [NOTE: don't ever do another init!]
+
+  >git status
+  shows you what still needs to be tracked
+
+Use "add" command to start tracking those files (adds to staging area)
+  >git add <filename> or "*"
+
+Commit will then save that state of the file with a message
+  >git commit -m "message about your commit"
