@@ -5,3 +5,5 @@ The website for this class can be found here: http://chendaniely.github.io/2015-
 Editing the README directly through GitHub.
 
 Testing simultaneous commits - this one is the local change.
+
+Another GitHub edit to test 2 commits.
