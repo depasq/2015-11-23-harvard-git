@@ -31,4 +31,30 @@ Commit will then save that state of the file with a message
  If you're in a clean repository with no commits needed, you can see the diff
  from the last commit using:
  > git diff HEAD~1
+
+"Checkout" an older version of a file
+> git checkout HEAD~1 (goes back 1 commit) <filename.ext>
+ - this could for example undelete a file that was deleted in a previous commit
+
+> git reset --hard
+ - it's a PANIC button if you did something bad, it'll undo everything you've done
+ up to the last commit and reset the directory to the state of that commit
+
+>git checkout by hash number:
+~/code/2015-11-23-harvard-git (master)  $ git log --oneline
+c4636a2 another note update
+ce6dd1b update notes
+acf3e22 update README
+fa61f90 another update to notes
+41687b6 update to notes
+0740c7a initial commit for git training project
+>git checkout c4636a2 <filename.ext> (see use of specific hash)
+
+DETATCHED HEAD STATE!!
+git checkout [hash from previous commit]
+ - changes the directory to that commit so you can run an older version of code
+
+git checkout master
+ - this brings thing back to the latest state
+
  
