@@ -17,7 +17,7 @@ I. Basics of GIT
   shows you what still needs to be tracked
 
 Use "add" command to start tracking those files (adds to staging area)
-  >git add <filename> or "*"
+  >git add <filename> or "*" or "."
 
 Commit will then save that state of the file with a message
   >git commit -m "message about your commit"
