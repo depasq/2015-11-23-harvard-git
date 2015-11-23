@@ -1,0 +1,4 @@
+GIT Training Session - 11/23/2015
+---------------------------------
+- useful notes for organizing projects:
+http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424
