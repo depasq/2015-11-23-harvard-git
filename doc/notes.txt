@@ -57,4 +57,14 @@ git checkout [hash from previous commit]
 git checkout master
  - this brings thing back to the latest state
 
- 
+ II. Collaborating with git
+
+ FORK
+  - copies an existing repository into your own GitHub account
+  - you can then make any changes you want and stay with that
+  - if you want to add your changes back into the source code base, you can do a
+  pull request
+  - if you need to incorporate more changes from the source later, you can call
+  it "remote upstream (instead of origin)" and do a >git pull remote upstream
+  to incorporate the latest changes into your code, then sync up with your own remote origin
+  
